@@ -12,6 +12,11 @@
 
 
 		</div><!-- #main -->
+		<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
+			<div id="footer-1" class="footer-1 widget-area" role="complementary">
+				<?php dynamic_sidebar( 'footer-1' ); ?>
+			</div>
+		<?php endif; ?>
 	</div><!-- #page -->
 
 	<?php wp_footer(); ?>
