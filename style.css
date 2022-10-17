@@ -329,6 +329,20 @@ input[type="reset"],
 input[type="submit"] {
 	cursor: pointer;
 }
+.view-link a:link {
+	color: var(--color2);
+	font-weight: bold;
+	text-decoration: underline;
+}
+.view-link a:visited {
+	color: var(--color2);
+}  
+.view-link a:hover {
+	color: var(--color1);
+}  
+.view-link a:active {
+	color: var(--color6);
+}
 /* End MAIN STYLES */
 
 /* BODY STYLES */
@@ -407,6 +421,17 @@ body {
 }
 #sidebar {
 	display: none;
+}
+.footer-1 {
+	border-top: 3px solid var(--color1);
+	align-content: center;
+}
+.footer-header {
+	color: var(--color1);
+}
+.footer-copyright {
+	color: var(--color1);
+	font-family: var(--font1);
 }
 
 /* media queries */
@@ -644,6 +669,10 @@ body {
 #sidebar .widget_archive ul li a {
 	color: var(--color5);
 }
+#sidebar #block-22 {
+	border-bottom: 1px solid var(--color8);
+	/* adds a line below the posts and above the contact section */
+}
 /* End SIDEBAR STYLES */
 
 /* NEXT / PREV STYLES */
@@ -822,7 +851,13 @@ body {
 
 /* PAGE STYLES and CUSTOM TEMPLATE STYLES*/
 .page .entry-title {
-	font-weight: 500;
+	font-size: 36px;
+	font-size: 2.25rem;
+	line-height: 2.25;
+	font-family: var(--font1);
+	color: var(--color2);
+	font-weight: bold;
+	font-weight: 700;
 	text-align: center;
     border-bottom: 0.07em solid var(--color2);
     padding-bottom: .5em;
