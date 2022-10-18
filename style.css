@@ -723,7 +723,7 @@ body {
 }
 #navigation .pagination {
 	display: none;
-	color: var(--color3);
+	color: var(--color7);
 }
 
 /* media queries */
