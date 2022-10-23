@@ -850,7 +850,8 @@ body {
 /* End SINGLE POST STYLES */
 
 /* PAGE STYLES and CUSTOM TEMPLATE STYLES*/
-.page .entry-title {
+.page .entry-title,
+.home h2 {
 	font-size: 36px;
 	font-size: 2.25rem;
 	line-height: 2.25;
@@ -916,32 +917,19 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
-.home .page-header,
-.home .footer-1 {
-	display: none;
+.home h2 {
+	margin-top: 9px;
 }
-
-.home .content {
-	background: var(--color3);
-	padding: 3em;
+.case-study {
+	background-color: var(--color4);
+	border: 1px solid var(--color8);
 }
-.home .main-content {
-	display: block;
-	width: 100%;
-	padding: 4em 0;
+.case-study-text {
+	padding-left: 10px;
+	padding-right: 10px;
 }
-.home .content h1 {
-	font: 700 2.25em/1.5 var(--font1);
-	margin: 0 0 1em;
-}
-.home .content p {
-	font: 1em/2 var(--font2);
-	margin-bottom: 2em;
-}
-.home .content p a {
-	font-weight: 600;
-	text-decoration: underline;
-	color: var(--color5);
+.case-study-text h3 {
+	margin-top: 0px;
 }
 
 /* media queries */
@@ -951,6 +939,9 @@ body {
 	}
 	.home .content {
 		float: left;
+	}
+	.case-study-text {
+		width: 70%;
 	}
 }
 /* End HOMEPAGE STYLES */
