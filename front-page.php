@@ -13,7 +13,7 @@ get_header(); ?>
 	<div class="main-content">
 		<div class="content">
 			<?php while ( have_posts() ): the_post(); ?>
-				<h2><?php the_title(); ?></h2>
+				<h1><?php the_title(); ?></h1>
 				<?php the_content(); ?>
 			<?php endwhile; ?>
 		</div>
