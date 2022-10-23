@@ -958,3 +958,11 @@ body {
 	}
 }
 /* End HOMEPAGE STYLES */
+
+
+/* PAGE BREAK STYLES */
+@media (min-width: 768px) {
+	html {
+		font-size: 20px;
+	  }
+}
