@@ -25,7 +25,6 @@ get_header(); ?>
 		<?php endif; ?>
 	</div>
 
-	<?php get_sidebar(); ?>
 </section>
 
 <nav id="navigation" class="container">

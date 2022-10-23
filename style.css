@@ -910,7 +910,7 @@ body {
 /* HOMEPAGE STYLES */
 .home {
 	width: 100%;
-	background: url(img/hero-image.png) no-repeat center center;
+	background: var(--color3);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -922,7 +922,6 @@ body {
 }
 
 .home .content {
-	max-width: 600px;
 	background: var(--color3);
 	padding: 3em;
 }
@@ -943,50 +942,6 @@ body {
 	font-weight: 600;
 	text-decoration: underline;
 	color: var(--color5);
-}
-.home .content .social-btns {
-	margin-bottom: 1.875em;
-}
-.home .content .social-btns a {
-	display: inline-block;
-	width: 1.5em;
-	height: 1.5em;
-	margin-right: .5em;
-}
-.home .content .soc-icon.tw {
-	background: url(img/twitter-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .content .soc-icon.fb {
-	background: url(img/facebook-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .content .soc-icon.ln {
-	background: url(img/linkedin-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .content .soc-icon.db {
-	background: url(img/dribbble-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .content .soc-icon.gh {
-	background: url(img/github-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .content .soc-icon.in {
-	background: url(img/instagram-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .btn {
-	background: var(--color2);
-	color: var(--color3);
-	font: 700 1.125em/3.5 var(--font2);
-	display: inline-block;
-	height: 3.5em;
-	width: 100%;
-	padding: 0 1.25em;
-	text-align: center;
-	text-decoration: none;
 }
 
 /* media queries */

@@ -17,7 +17,6 @@ get_header(); ?>
 		<?php endwhile; ?>
 	</div>
 
-	<?php get_sidebar(); ?>
 </section>
 
 <nav id="navigation" class="container">
