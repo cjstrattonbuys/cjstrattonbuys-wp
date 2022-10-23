@@ -24,6 +24,7 @@
 	<div id="page" class="hfeed site">
 		<header class="page-header container">
 			<a href="<?php echo site_url(); ?>" class="top-logo">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="logo" alt="Site logo">
 				<span class="title"><?php bloginfo('name'); ?></span>
 				<span class="sub-title"><?php bloginfo('description'); ?></span>
 			</a>

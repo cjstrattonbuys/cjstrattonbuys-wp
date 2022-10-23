@@ -373,9 +373,15 @@ body {
 	padding-top: 2.3125em;
 	overflow: hidden;
 }
+.logo {
+	height: 4em;
+	float: left;
+	padding-right: 10px;
+}
 .page-header .top-logo {
 	color: inherit;
 	float: left;
+	width: 35%;
 }
 .page-header .top-logo .title {
 	color: var(--color2);
@@ -383,6 +389,7 @@ body {
 	letter-spacing: -0.034em;
 	display: block;
 	color: var(--color1);
+	margin-bottom: 0px;
 }
 .page-header .top-logo .sub-title {
 	color: inherit;
