@@ -497,6 +497,11 @@ body {
 	.main-content {
 		flex-grow: 1;
 	}
+	.about-me-squish {
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	#sidebar {
 		display: block;
 		width: 31%;
@@ -857,6 +862,68 @@ body {
 	font-size: 0.875rem;
 	padding: 5px;
 }
+.case-study-caption {
+	font-size: 0.875rem;
+}
+.scroll-mobile,
+.scroll-tablet,
+.scroll-desktop {
+	padding: 0px;
+	overflow: scroll;
+	border: 3px var(--color5) solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+.scroll-mobile,
+.scroll-mobile img,
+.scroll-tablet,
+.scroll-tablet img,
+.scroll-desktop, 
+.scroll-desktop img {
+	width: 90vw;
+}
+.scroll-mobile {
+	height: 160vw;
+}
+.scroll-tablet {
+	height: 143.9vw;
+}
+.scroll-desktop {
+	height: 75.75vw;
+}
+.scroll-mobile img,
+.scroll-tablet img,
+.scroll-desktop img {
+	height: auto;
+}
+@media (min-width: 768px) {
+	.scroll-mobile,
+	.scroll-mobile img {
+		width: 135px;
+	}
+	.scroll-mobile {
+		height: 240px;
+	}
+	.scroll-tablet,
+	.scroll-tablet img {
+		width: 288px;
+	}
+	.scroll-tablet {
+		height: 460.5px;
+	}
+	.scroll-desktop, 
+	.scroll-desktop img {
+		width: 450px;
+	}
+	.scroll-desktop {
+		height: 378.75px;
+	}
+	.scroll-mobile img,
+	.scroll-tablet img,
+	.scroll-desktop img {
+		height: auto;
+	}
+}
 /* End SINGLE POST STYLES */
 
 /* PAGE STYLES and CUSTOM TEMPLATE STYLES*/
@@ -938,7 +1005,6 @@ body {
 	text-align: center;
 	border-bottom: 0.07em solid var(--color2);
 	padding-bottom: .5em;
-
 }
 .case-study {
 	background-color: var(--color4);
